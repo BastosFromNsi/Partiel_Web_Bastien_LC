@@ -13,7 +13,8 @@ $mangas = $resultat->fetchAll(PDO::FETCH_ASSOC);
 echo "<h1>Liste des mangas</h1>";
 echo "<ul>";
 foreach ($mangas as $manga) {
-    echo "<li>" . $manga['titre'] . " <br> " . $manga['annee'] . "</li>";
+    echo "<li>". $manga['titre'] . " <br> " . $manga['annee'] . "</li>";
+    
 }
 
 
